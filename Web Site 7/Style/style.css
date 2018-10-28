@@ -1,0 +1,325 @@
+body{
+    background-color:;
+    font-family:Arial;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+/* Start My FrameWrok */
+
+.container{
+    width:1000px;
+    margin: auto;
+}
+
+
+/* Start Navber Style */
+
+nav {
+    background-color:black;
+    height:49px;
+    position: fixed;
+    overflow: hidden;
+    display:block;
+    width: 100%;
+}
+
+nav ul{
+    float:left;
+    background-color:;
+    color:white;
+    padding-left:10px;
+}
+
+nav ul li{
+    float:left;
+    display: inline-block;
+    padding-top:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    margin-right:10px;
+    font-size:16px;
+}
+
+nav ul li:hover{
+    background-color:#95A5A6;
+}
+
+nav i{
+    float:right;
+    color:#FFF;
+    display:inline-block;
+    padding-top:15px; 
+    padding-right:15px;
+}
+
+
+/* Starst Slider Style */
+
+.slider{
+    display: block;
+    background-image:url(https://www.w3schools.com/w3images/la.jpg);
+    background-attachment: ;
+    background-size:cover;
+    height: 670px;
+    width:100%;
+    color:#fff;
+}
+
+.slider div {
+    height:100px;
+    width: 600px;
+    margin:auto;
+    padding-top:590px;
+    
+}
+
+.slider div h3,p{
+    margin-bottom: 15px;
+    text-align:center;
+    font-weight:700;
+    text-transform:capitalize;
+}
+.slider div h3{
+    text-transform:capitalize;
+    letter-spacing: 2px;
+}
+.slider div p{
+    
+}
+/* Start Port Style */
+.main-port{
+    
+}
+.port{
+    padding:80px;
+    color:black;
+}
+.port h2{
+    text-transform: uppercase;
+    text-align:center;
+    margin-bottom: 30px;
+    font-weight: 200;
+    font-size:30px;
+    
+}
+.port p{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.port .box{
+    margin-left: 60px;
+}
+.port .box div{
+    display:inline-block;
+}
+
+.port .box div h3{
+    margin-left: 50px;
+    font-weight: 400;
+    padding:10px;
+}
+.port .box div img{
+    width:60%;
+}
+
+/*Start tour Style */
+
+
+.tour{
+    padding:80px 0;
+    background-color:black;
+    color:#FFF;
+}
+
+.tour .text{
+    text-align:center;
+}
+
+.tour .text h2{
+    font-weight:400;
+    margin-bottom:30px;
+    letter-spacing:5px;
+    font-size:30px;
+}
+
+.tour .text h3{
+    font-weight:200;
+    font-style: italic;
+    color:#ccc;
+    font-size:16px;
+    margin-bottom:30px;
+}
+
+.tour .month{
+    margin:20px;
+    background-color:#FFF;
+    height: 160px;
+    color:red;
+    margin-bottom:40px;
+}
+.tour .month h3{
+    padding:8px;
+    font-weight:400;
+    color:#757575;
+    font-size:16px;
+}
+.tour .month hr{
+    margin:10px 0;
+    width:100%;
+    height: 2px;
+    opacity:0.4;
+    background-color:#BFBFBF;
+    border:none;
+}
+
+.box{
+    margin:auto;
+    margin-left: 85px;
+}
+.boxes{
+    background-color:red;
+    display:inline-block;
+    width:28%;
+    margin-right:20px;
+    background-color:#FFF;
+    color:#000;
+}
+.boxes .text{
+    padding:14px;
+}
+.boxes img{
+    width:100%;
+}
+.boxes img:hover{
+    opacity:0.8;
+}
+.boxes .text p{
+    font-size:14px;
+    font-weight:500;
+    text-align:justify;
+}
+
+.boxes .text button{
+    width:110px;
+    height:40px;
+    background-color:#000;
+    border:none;
+    color:#FFF;
+}
+
+.boxes button:hover{
+    background-color:#BFBFBF;
+}
+
+
+/* Start Contact Style */
+
+.contact{
+    overflow: hidden;
+}
+
+.contact .container > h2{
+    text-align: center;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    font-size:30px;
+    margin-top:90px;
+    margin-bottom: 15px;
+    font-weight:400;
+}
+.contact h3{
+    text-align:center;
+    font-style:italic;
+    color:#D2D7D3;
+    font-weight:300;
+}
+.contact .text{
+    float:left;
+    width:48%;
+    text-align: left;
+}
+
+.contact .text h2{
+    font-weight: 400;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.contact .text a i{
+    width: 2%;
+    position:relative;
+    top:20px;
+    left:8px;
+}
+
+.contact .forms{
+    margin-top:30px;
+    float:right;
+    width:52%;
+}
+
+.contact  .forms input{
+    margin: 15px;
+    width:194px;
+    height:25px;
+    border-radius:3px;
+    padding:10px;
+    border:none;
+    border: 1px solid #BFBFBF;
+}
+
+.contact .forms input[name="userMessage"]{
+    width:443px;
+}
+
+.contact button{
+    float:right;
+    margin-right:40px;
+    margin-top:60px;
+    width:60px;
+    height:35px;
+    background-color:#000;
+    color:#FFF;
+    text-transform:capitalize;
+    border:none;
+    display: inline-block;
+}
+
+.contact button:hover{
+    background-color:#BFBFBF;
+}
+
+footer{
+    display:block;
+    background-color: black;
+    height: 250px;
+    color:#FFF;
+    
+}
+
+
+footer h1{
+    text-align: center;
+    padding-top:100px;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    font-weight: 400;
+}
+
+footer a{
+    color:#FFF;
+    text-align: center;
+    margin-left: 715px;
+    font-size: 50px;
+}
+
+
+
+
+
+

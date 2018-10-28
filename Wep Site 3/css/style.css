@@ -1,0 +1,241 @@
+/* Rules */
+
+body{height:;font-family: "Lato", sans-serif;}
+
+.container{width:1070px;background:;margin:auto;}
+
+.clearfix{clear:both}
+
+/* End Rules */
+
+/* Start Header Stlye */
+
+.header{overflow:hidden}
+
+.header .topbar{
+    width:100%;
+    height:40px;
+    background:#FFF;
+    position:fixed;
+    border-bottom:2px solid rgba(149, 165, 166,1);
+}
+.header .topbar ul{
+    list-style:none;
+    padding-left:0;
+}
+.header .topbar ul li{
+    display:inline-block;
+    padding-left:10px;
+    position: relative;
+    bottom:5px;
+}
+
+  /* sLIDER */
+
+.header .slider{
+    background:url('https://www.w3schools.com/w3images/parallax1.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height:600px;
+    overflow:hidden;
+}
+.header .slider .intro{
+    text-align:center;
+    padding-top:220px;
+}
+.header .slider .intro h2{
+    font-weight:300;
+    letter-spacing:10px;
+    color:#FFF;
+    background:#404040;
+    width:400px;
+    padding:12px 10px;
+    margin:auto;
+    
+}
+
+/* End Header Style */
+
+
+/* Start About Me Style */
+
+.about-me{
+    overflow:hidden;
+    margin-top:80px;
+}
+.about-me ,h2,span,p:first-of-type{
+    text-align: center;
+    color:#777;
+    line-height:1.6;
+}
+.about-me p{
+    text-align: justify;
+}
+
+.about-me .image01{
+    width:50%;
+    margin-right:5%;
+    float:left;
+}
+.about-me .image01 img{
+    opacity: 0.6;
+    padding-top:30px;
+}
+.about-me .image01 img:hover{opacity: 1}
+.about-me .img-info{
+    width:45%;
+    float:left;
+}
+.about-me .img-info p{
+    padding-top:30px;
+}
+/* End About Me Style */
+
+/* Progress Style */
+.progress .good h4{
+    margin-top:50px;
+    font-weight:400;
+    font-size:18px;
+}
+
+.progress .pro div{
+    width:100%;
+    height:40px;
+    background:#f1f1f1;
+    margin-bottom:30px;
+}
+.progress .pro span{
+    display:block;
+    background:#616161;
+    text-align:center;
+    height:40px;
+    line-height:40px;
+    color:#FFF;
+}
+.progress .pro h4 {
+    text-align:left;
+    letter-spacing:7px;
+    font-weight:400;
+}
+
+/* End Proggres Style */
+
+
+/* Start Num Style */
+
+.num{
+    height:120px;
+    background:#616161;
+}
+.num ul{
+    padding-left:0;
+    list-style:none;
+    margin-left:150px;
+}
+.num ul li{
+    display:inline-block;
+}
+.num ul li p{
+    font-size:18px;
+    color:#FFF;
+    padding:10px;
+    margin-right:250px;
+    text-align:center;
+}
+
+/* portfolio */
+
+.portfolio{
+    height:600px;
+    background:url('https://www.w3schools.com/w3images/parallax2.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+
+/* my work style */
+
+.my-work .text h2,p{
+    text-align:center;
+    
+}
+.my-work .text p {
+    padding:0 325px;
+    font-style:italic;
+    margin-bottom:40px;
+}
+.my-work .images {
+    width: 900px;
+    margin-left: 110px;
+}
+.my-work .images img{
+    padding:10px;
+    width:200px;
+}
+.my-work .images img:hover{
+    opacity: 0.7;
+}
+.my-work .button{
+    margin-top:50px;
+    text-align:center;
+}
+.my-work .button button{
+    background:#a3a3a3;
+    padding:15px 15px;
+    border:0;
+    margin-bottom:60px;
+}
+.my-work .button button:hover{
+    background:#dadada;
+}
+
+
+/* contact style */
+
+.contact{
+    background:url('https://www.w3schools.com/w3images/parallax3.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    height:400px;
+    /*opacity:0.7;*/
+    overflow: hidden;
+}
+
+.contact .text {
+    text-align:center;
+    padding-top:130px;
+}
+.contact .text h4{
+    font-size:40px;
+    letter-spacing:10px;
+    color:#FFF;
+}
+.line{
+    height:200px;
+    background:#FFF;
+    text-align:center;
+}
+.line .b{
+    padding-top:90px;
+}
+.line .b button{
+    background:#a3a3a3;
+    padding:12px 12px;
+    border:0;
+}
+.line .b button:hover{
+    background:#dadada;
+}
+/* Start Footer Stlye */
+
+.footer{
+    height:200px;
+    background:#2c2c2c;
+    text-align:center;
+}
+.footer p{
+    padding-top:80px;
+    font-size:20px;
+    color:#fff;
+}

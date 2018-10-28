@@ -1,0 +1,282 @@
+/* My Frame Work */
+
+body{
+    margin:0;
+    padding:0;
+    height:4000px;
+    background-color:#efefef;
+    font-family:Arial;
+}
+
+.container{
+    width:1180px;
+    margin-left:200px;
+}
+
+.clearfix{
+    clear:left;
+}
+
+.float-left{
+    float:left;
+    width:70%
+}
+
+.float-right{
+    float:right;
+    width:25%;
+}
+
+
+/* End Frame Work*/
+
+
+/* Start NAV Style */
+
+nav{
+    margin-top:15px;
+}
+
+nav h1{
+    float:left;
+}
+
+nav ul{
+    float:right;
+    background-color:#f53f1a;
+}
+
+nav ul li{
+    display:inline-block;
+    padding-left:25px;
+    padding-top:18px;
+    padding-bottom:18px;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+
+nav ul li:last-child{
+    padding-right:25px;
+}
+
+nav ul li:first-child{
+    padding-left:3px;
+    color:#FFF;
+}
+
+nav ul li:hover{
+    color:#FFF;
+}
+
+nav img{
+    margin-top:18px;
+}
+
+/* End Nav Style */
+
+
+/* Start Header Style */
+
+header{
+    float:left;
+    overflow: hidden;
+}
+
+header section{
+    width:70%;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+header section img{
+    width: 95%;
+    padding:15px;
+    border:1px solid #d0d0d0;
+}
+
+/* End Header Style */
+
+/* Start Article Srtyle */
+
+
+article{
+    width:67%;
+    margin-top:30px;
+    margin-left:20px;
+    border:1px solid #d0d0d0;
+    padding:15px;
+    overflow: hidden;
+}
+
+article section{
+    margin-left:20px;
+    width:45%;
+    color:#1B242F;
+    float:left
+}
+
+article section img{
+    width:95%;
+}
+
+article section h2{
+    font-weight:500;
+}
+
+article section p{
+    color:#302e2e;
+    width:95%;
+    text-align:justify;
+    line-height:1.6em;
+    font-weight:100;
+    font-size: 14px;
+}
+
+
+/* End Article Style */
+
+
+
+aside{
+    margin-top:10px;
+}
+
+aside input[type="search"]{
+    width:200px;
+}
+
+aside section{
+    width:85%;
+    margin-top:30px;
+    
+}
+
+aside section h2{
+    color:#FFF;
+    font-size:18px;
+    font-weight:500;
+    padding:10px 20px;
+    background-color:#f53f1a;
+}
+
+aside section .box{
+    padding:0 20px 10px 10px;
+    border:1px solid #d0d0d0;
+    overflow: hidden;
+}
+
+aside section .box img{
+    width:100%;
+}
+
+aside section .box .text{
+    margin-top:10px;
+    float:right;
+    width:60%;
+}
+
+aside section .box .image{
+    margin-left:10px;
+    margin-top:20px;
+    margin-right:5px;
+    width:30%;
+    float:left;
+}
+
+aside section .box .text h3{
+    font-weight: 500;
+    font-size:16px;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+aside section .box .text p{
+    width:103%;
+    color:#302e2e;
+    line-height:1.6em;
+    font-weight:100;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+aside section .box{
+    padding:0 20px 10px 0px;
+}
+
+aside section .box ul{
+    list-style:none;
+}
+
+aside section .box ul li{
+    margin-bottom:18px;
+}
+
+aside section .box ul li p:hover{
+    color:#f53f1a;
+}
+
+aside section .box ul li p{
+    color:#302e2e;
+    font-weight:100;
+    font-size: 14px;
+}
+
+aside section .box ul li hr{
+    border:0.01em;
+    border-style:dotted;
+    margin:auto;
+    width:166px;
+    
+}
+
+aside section .box form{
+    padding:10px;
+}
+
+aside section .box form input[type="email"]{
+    border:none;
+    padding:10px 10px 10px 5px;
+    color:#898888;
+}
+
+aside section .box form input[type="submit"]{
+    float:left;
+    margin:10px 0 10px;
+    border:none;
+    background-color:#26313b;
+    padding:5px 10px;
+    color:#FFF;
+}
+
+aside section .box form input[type="submit"]:hover{
+    background-color:#f53f1a;
+}
+
+/* Start Slide Style */
+
+.slide{
+    width:90%;
+    margin-top:60px;
+    border:1px solid #d0d0d0;
+    padding:25px 50px ;
+}
+
+.slide section{
+    
+}
+
+.slide section div {
+    width:18%;
+    display:inline-block;
+    margin-left:5px;
+}
+
+.slide section div img{
+    padding:10px;
+    border:1px solid #d0d0d0;
+    width:90%;   
+}
+
+
+

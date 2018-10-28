@@ -1,0 +1,299 @@
+body{
+    height:10000px;
+    font-family:Arial;
+}
+*{
+    padding:0;
+    margin:0;
+}
+/* Start My FrameWork */
+
+.container{
+    width:1200px;
+    margin:auto;
+    background:;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+h2{
+    margin: 0;
+}
+
+hr{
+    
+}
+/* Ends My FrameWork */
+
+
+
+/* Start Navbar Style */
+
+nav{
+    background: #1d2126;
+    height:80px;
+    color:#FFF;
+}
+
+nav .logo h2{
+    float:left;  
+    margin:30px;
+    text-transform: uppercase;
+}
+
+nav .navs ul li{
+    float:right;
+    display: inline-block;
+    margin:30px;
+    
+}
+
+nav .navs ul li:hover{
+    border:2px solid #5b6168;
+    border-radius:2px;
+    padding:5px 15px;
+    margin:25px 15px;
+}
+    
+
+/* End Navbar Style */
+
+
+/* Start Header Style */
+
+header .slider{
+    height:600px;
+    background:url(background01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header .slider .intro{
+    padding-top:250px;
+    color:#fff;
+    font-size:20px;
+}
+
+header .slider .intro h2{
+    text-transform: uppercase;
+    margin-bottom:30px;
+}
+
+header .slider .intro p{
+    line-height:1.6;
+    width:900px;
+    margin-bottom:30px;
+}
+
+header .slider .intro button{
+    display:inline-block;
+    margin-right:20px;
+    background:none;
+    border:2px solid #FFF;
+    padding:10px 20px;
+    border-radius:6px;
+}
+
+header .slider .intro button:hover{
+    background:#23b7a4;
+    border:2px solid #23b7a4;
+}
+
+header .slider .next ul{
+    float:right;
+}
+
+header .slider .next ul li{
+    margin-top:100px;
+    
+    border:2px solid #FFF;
+    border-radius:10px;
+    width:15px;
+    height:15px;
+    display:inline-block;
+}
+
+header .slider .next ul li:hover{
+    background:#FFF;
+}
+/* End Header Style */
+
+
+/* Start Weare Stlye */
+
+.weare{
+    margin-top:30px;
+    color:#000;
+}
+
+.weare .info{
+    height:500px;
+    width:60%;
+    float:left;
+}
+
+.weare .info h2{
+    text-transform:uppercase;
+    margin-bottom: 40px;
+}
+.weare .info p{
+    line-height:1.6;
+    margin-bottom: 38px;
+    color:#8d8f92;
+}
+.weare .info .icon{
+    
+}
+
+.weare .info .icon div{
+    width:60px;
+    height: 60px;
+    background: #c8cdd0;
+    text-align: center;
+    display:inline-block;
+    margin-top:40px;
+}
+
+.weare .info .icon div:hover{
+    background: #d0d5d9;
+}
+
+.weare .info .icon div i{
+    color:#FFF;
+    margin-top: 15px;
+}
+
+.weare .moreinfo{
+    height:500px;
+    width:40%;
+    background:;
+    float:right;
+}
+
+.weare .moreinfo .list{
+    margin-bottom:40px;
+    background:;
+    display:inline-block;
+}
+
+.weare .moreinfo .list .text{
+    float:right;
+    width:80%;
+}
+
+.weare .moreinfo .list .text h3{
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
+
+.weare .moreinfo .list .text p{
+    line-height:1.6;
+    color:#8d8f92;
+}
+
+.weare .moreinfo .list .num{
+    color:#FFF;
+    font-size: 16px;
+    float:left;
+    width:20%;
+    text-align:center;
+}
+
+.weare .moreinfo .list .num{
+    margin-top:7px;
+    margin-left:25px;
+    padding-top:10px;
+    background:#23b7a4;
+    width:50px;
+    height:35px;
+    
+    
+}
+.hr{
+    
+    background:#dde1e4;
+    height:10px;
+}
+/* End Weare Stlye */
+
+
+/* Start Team Style */
+
+.the-team{
+    
+}
+
+.the-team h1{
+    text-transform:uppercase;
+    margin-bottom:30px;
+}
+
+.the-team .team{
+    background:;
+    padding:10px;
+    height:400px;
+    display:inline-block;
+}
+
+.the-team .team .text:hover{
+   background:#3a454d;
+}
+
+.the-team .team .text{
+    background:#e1e6ea;
+    margin-top:-4px;
+    padding:20px;
+    
+}
+
+/* End Team Style */
+
+
+/* Start Work Style */
+
+.work{
+    background:#3a454d;
+    padding:50px;
+    color:#FFF;
+}
+.work h1{
+    text-transform:uppercase;
+    margin-bottom:30px;
+}
+
+.work .image{
+    padding:10px;
+    display:inline-block;
+    
+}
+
+.work .image .info{
+    padding:20px 10px;
+    color:#FFF;
+    background:	rgba(41, 47, 54, 0.8);
+    height:40px;
+    display:none;
+    
+}
+
+.work .button{
+    margin-left:700px;
+    margin-top:50px;
+    
+}
+
+.work .button button{
+    border:2px solid #FFF;
+    background:none;
+    padding:10px 30px;
+    border-radius:5px;
+    color:#FFF;
+}
+/* end Work Style*/
+
+

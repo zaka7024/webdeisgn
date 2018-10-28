@@ -1,0 +1,460 @@
+/* Glopal Reset */
+
+body{
+    height:4000px;
+    font-family: Arial;
+    margin:0;padding:0;
+}
+
+h1,h2{
+    padding:0;margin:0;
+    letter-spacing: 1px;
+}
+
+/* MY Framework */
+
+.container{
+    margin:auto;
+    width:1300px;
+    background-color:;
+}
+
+.clearfix{
+    clear:both;
+}
+
+hr{
+    width:75px;
+    height:4px;
+    background-color: #E75926;
+    border-color: #E75926;
+    border-style: none;
+    margin-bottom:180px;
+}
+
+/* End Framework */
+
+/* Start nav style */
+
+nav h1{
+    float:left;
+    margin:15px 100px;
+    font-size:20px;
+    font-weight:400;
+}
+
+nav{
+    height:50px;
+    background-color:#333;
+    color:#FFF;
+    position: fixed;
+    width:100%;
+}
+
+nav ul{
+    float:right;
+    margin-right:100px;
+}
+
+nav ul li{
+    display:inline-block;
+    padding:5px 15px;
+    font-weight:400;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+nav ul li:hover{
+    color:#cbcbcb;
+}
+/* End nav style */
+
+/* Start header style */
+
+header{
+    background-image:url(../Images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    height:800px;
+}
+
+header .intro{
+    padding-top:200px;
+    margin-left: 450px;
+}
+
+header .intro h1{
+    letter-spacing:1px;
+    font-size:75px;
+    color:#FFF;
+    text-transform:uppercase;
+}
+header .intro span{
+    color:#E75926;
+}
+
+header .intro p{
+    width:550px;
+    text-align:center;
+    color:#FFF;
+    font-size:18px;
+    font-weight:300;
+    letter-spacing:1px;
+}
+
+header .intro button{
+    border:none;
+    background-color:#E75926;
+    color:#FFF;
+    margin-top:80px;
+    padding:15px 26px;
+    margin-left:210px;
+    border-radius:3px;
+    text-transform: capitalize;
+    font-size:18px;
+}
+
+header .intro button:hover{
+    background-color: #db6e46;
+}
+
+header .intro button:
+
+/* End header style */
+
+/* Start about Style */
+
+.about{
+    margin-top:150px;
+    padding:0 30px;
+    margin-bottom: 400px;
+}
+
+.about h1{
+    text-align:center;
+    color:#555;
+    text-transform: uppercase;
+    font-size:28px;
+}
+
+.about hr{
+    width:75px;
+    height:4px;
+    background-color: #E75926;
+    border-color: #E75926;
+    border-style: none;
+    margin-bottom:60px;
+}
+
+.about .image{
+    display:inlie-block;
+    width:30%;
+    float:left;
+    background-color:
+}
+
+.about .image img{
+    width:100%;
+}
+
+.about .info{
+    width:65%;
+    float:right;
+    padding-left:40px;
+}
+
+.about .info .one h2,.about .info .two h2{
+    color:#555;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about .info .one {
+    float:left;
+    width:50%;
+}
+
+.about .info .one p,.about .info .two p{
+  
+    color:#777;
+    line-height:1.4;
+    text-align:justify;
+    width:90%;
+}
+
+.about .info .two{
+    width:48%;
+    float:right;
+}
+ /* End about Style */
+
+/* Start services Style */
+
+.services{
+    background-image:url(../Images/services-bg.jpg);
+    background-size:cover;
+    padding-top:100px;
+    padding-bottom: 60px;
+}
+
+.services h1{
+    text-align: center;
+    color:#FFF;
+    font-size:28px;
+}
+
+.services .our-services{
+    color:#FFF;
+    padding:0 40px;
+}
+
+.services .our-services i{
+    width:100%;
+    text-align: center;
+    font-size:30px;
+    color:#E75926;
+}
+
+.services .our-services h3{
+     width:100%;
+    text-align: center;
+}
+
+.services .our-services p{
+    color:rgba(255,255,255,0.7);
+    text-align: center;
+    width:300px;
+}
+
+.services .our-services >div{
+    display:inline-block;
+    width:24%;
+    margin-bottom:90px;
+}
+
+/* End services style */
+
+/* Start portfolio Style */
+
+.portfolio{
+    margin-bottom:130px;
+}
+
+.portfolio h1{
+    text-align:center;
+    color:#555;
+    margin-top:55px;
+    margin-bottom: 15px;
+}
+
+.portfolio hr{
+    margin-bottom:30px;
+}
+
+.portfolio p{
+    text-align:center;
+    color:#777;
+    margin-bottom:20px;
+}
+
+.portfolio .project{
+    margin-left:90px;
+}
+
+.portfolio .project > div{
+    display:inline-block;
+    width:22%;
+}
+
+.portfolio .project img{
+    padding:10px;
+    width:90%;
+}
+
+/* End portfolio Style */
+
+/* Start Team Style */
+
+.team{
+    padding: 150px 0;
+    background-color:#e6e6e6
+}
+
+.team h1{
+    text-align:center;
+    color:#555;
+}
+
+.team hr{
+    margin-bottom:40px;
+}
+
+.team p{
+    text-align:center;
+    color:rgba(0,0,0,0.5);
+    margin-bottom:40px;
+}
+
+.team .our-team{
+    margin-left:110px;
+}
+
+.team .our-team > div{
+    width:24%;
+    display:inline-block;
+}
+.team .our-team > div img{
+    border:3px solid #FFF;
+    width:60%;
+}
+
+.team .our-team h4{
+    color:#555;
+}
+
+.team .our-team span{
+    color:#777;
+}
+
+/* End Team Style */
+
+/* Start client Style */
+
+.client{
+    padding:150px 0;
+    background-image:url(../Images/testimonials-bg.jpg);
+}
+
+.client h1{
+    color:#FFF;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.client hr{
+    margin-bottom:70px;
+}
+
+.client .comment{
+    width:30%;
+    display:inline-block;
+    padding-left: 30px;
+}
+.client .comment i{
+    color:#777;
+    font-size:28px;
+    width:70%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.client .comment p{
+    width:70%;
+    text-align:center;
+    color:#FFF;
+}
+
+
+.client .comment hr{
+    margin-bottom:10px;
+    background-color:#777;
+    border-color:#777;
+    width:150px;
+    margin-right:180px;
+    height:1px;
+}
+
+.client .comment h4,span{
+    margin-bottom:0;
+    color:#FFF;
+    font-weight:300;
+    width:250px;
+    text-align: center;
+}
+
+footer{
+ background-color: #333;
+ padding: 30px 0;
+}
+
+footer ul{
+    list-style: none;
+    margin-left: 600px;
+    margin-bottom: 20px;
+}
+
+
+footer ul li{
+    display:inline-block;
+}
+
+footer ul li i{
+    padding:0 14px;
+    text-align: center;
+    color:#FFF;
+}
+
+footer h1{
+    text-align: center;
+    color:#FFF;
+    font-size: 18px;
+    text-transform:uppercase;
+}
+
+footer span{
+    color:#cf5022;
+}
+
+/*
+.contact{
+    padding: 150px 0;
+    background-color: #f6f6f6;
+}
+
+.contact h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#333;
+}
+
+.contact hr{
+    margin-bottom: 40px;
+    
+}
+.contact p{
+    text-align: center;
+    color:#777;
+    margin-bottom: 90px;
+}
+
+.contact ul {
+    margin-left: 160px;
+}
+
+.contact ul li{
+    list-style: none;
+    width:25%;
+    display:inline-block;
+    
+    
+}
+
+.contact ul li i{
+    width: 100%;
+    text-align: center;
+    color:#e75926;
+}
+
+.contact ul li i span{
+    color:#777;
+}
+
+.contact ul li p{
+    width: 90%;
+}
+
+.contact ul li p,h4{
+    font-size: 18px;
+}
+
+*/
